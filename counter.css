@@ -7,17 +7,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    height: 100vh;
     background-color: turquoise;
 }
 div{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
     border-style: none;
     background-color: snow;
-    border-radius: 10px;
+    border-radius: 60px;
     width: 350px;
-    height: 250px;
-    margin: 10px;
+    height: 300px;
 }
+
 
 h3{
     font-size: 5rem;
@@ -26,14 +30,14 @@ h3{
     margin-bottom: 10px;
 }
 button{
-    border-radius: 10px;
-    display: inline-block;
-    margin: 2rem 2rem ;
+    border-radius: 40px;
+    margin: 20px 0;
     text-decoration: none;
-    padding: 7px;
     background-color: cornflowerblue;
     border-style: none;
     cursor: pointer;
+    height: 40px;
+    width: 80px;
 }
 button:hover{
     background-color: purple;
